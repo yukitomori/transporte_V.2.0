@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/et-line.css" rel="stylesheet">
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontello.css">
+  
+</head>
+<body>
+        <header class="header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark">
+                  <a class="navbar-brand" href="index.html"><img src="assets/img/icons/LogoTransporte.png" alt="VR"></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            
+            
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item ">
+                        <a href="index.html" class="btn btn-success btn-sm"><i class="icon-spin3"> - </i>Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="login.html" class="btn btn-success btn-sm"><i class="icon-chat-alt"> - </i>Comentarios</a>
+                        </li>
+                      <li class="nav-item">
+                        <a href="login.html" class="btn btn-success btn-sm"><i class="icon-star"> - </i>Gerencia de transportes</a>
+                      </li>
+                      
+                      
+                      <li class="nav-item dropdown">
+                        <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">
+                            <i class="icon-cab"></i><i class="icon-right-dir"></i> LINEAS<span class="caret"></span></button>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#"><i class="icon-bus"> - </i>Linea 1 </a>
+                          <a class="dropdown-item" href="#"><i class="icon-bus"> - </i>Linea 2</a>
+                          <a class="dropdown-item" href="#"><i class="icon-bus"> - </i>Linea 2</a>
+                          <a class="dropdown-item" href="#"><i class="icon-bus"> - </i>Linea 2</a>
+                          <a class="dropdown-item" href="#"><i class="icon-bus"> - </i>Linea 2</a>
+                          <a class="dropdown-item" href="#"><i class="icon-bus"> - </i>Linea 2</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Observaciones</a>
+                        </div>
+                      </li>
+                    </ul>
+
+                    <br>
+                    <ul class="nav navbar-nav navbar-right ml-auto">
+                            <li class="nav-item dropdown">
+                              <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Acceder<i class="icon-user"></i> </a>
+                              <ul class="dropdown-menu">
+                                <li>
+                                  <form class="form-inline login-form" action="/examples/actions/confirmation.php" method="post">
+                                    <div class="input-group">
+                                      <span class="input-group-addon"><i class="icon-adult"></i></span>
+                                      <input type="text" class="form-control" placeholder="Login" required>
+                                    </div>
+                                    <div class="input-group">
+                                      <span class="input-group-addon"><i class="icon-lock"></i></span>
+                                      <input type="password" class="form-control" placeholder="Contraseña" required>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-primary" ><i class="icon-login"></i>- Acceder </button>
+                                  </form>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                    
+                  
+            
+            
+                      <ul class="nav-item ">
+                        <a href="index.html" class="btn btn-danger btn-sm"><i class="icon-adult"></i>REGISTRARSE</a>
+                      </ul>
+                      
+              </header>
+              
+              <div class="signup-form">
+                    <form action="/examples/actions/confirmation.php" method="post">
+                        <h2>Registro</h2>
+                        <p class="hint-text">Crea tu cuenta. Es gratis y solo toma un minuto.</p>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-xs-6"><input type="text" class="form-control" name="first_name" placeholder="Nombres" required="required"></div>
+                                <div class="col-xs-6"><input type="text" class="form-control" name="last_name" placeholder="Apellidos" required="required"></div>
+                            </div>        	
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="Contraseña" required="required">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="confirm_password" placeholder="Confirmar Contraseña" required="required">
+                        </div>        
+              
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-danger btn-lg btn-block"><i class="icon-login"></i>Registrar</button>
+                        </div>
+                    </form>
+                   
+                </div>
+                
+
+                <!-- J y B4 -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/imgloaded.js"></script>
+  <script src="assets/js/isotope.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

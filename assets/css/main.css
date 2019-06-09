@@ -9,9 +9,7 @@ height: 100px;
  border-radius: 32px 32px 32px 32px;
 }
 
-#titulo{
-  font-family: robo
-}
+
 .header {
   background: url(../img/fondo1.jpg) no-repeat center ;
   
@@ -32,7 +30,7 @@ height: 100px;
     margin-bottom: auto;
     margin-top: auto;
     height: 60px;
-    background-color: #f6fff5;
+    background-color: #105009;
     border-radius: 20px;
     padding: 10px;
     }
@@ -89,9 +87,176 @@ height: 100px;
      margin-top: 10px;
       color: #ff8000;
     }
+    h1#empresa{
+      margin-top: 10px;
+       color: #a6ff00;
+     }
 .well{
 
   margin-top: 10px;
 
 }
+.nav-item{
+  margin: 2px;
+}
+/*LOGIN */  
+.navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
+  color: #ffd905 !important;
+}
+
+  .navbar .form-inline .input-group-addon {
+  box-shadow: none;
+      border-radius: 10px 0 0 10px;
+  background: #f77c09;
+      
+      font-size: 16px;
+  }
+
+.navbar .form-inline .btn {
+  border-radius: 10px;
+  color: rgb(255, 254, 254);
+      border-color: #ff2600;
+  background: #f88e03;
+  outline: none;
+}
+.navbar .form-inline .btn:hover, .navbar .form-inline .btn:focus {
+      border-color: #f50000;
+  background: #fd0000;
+  }
+
+
+.navbar .search-form .form-control {
+  border-radius: 2px;
+}
+.navbar .login-form .input-group {
+  margin-right: 5px;
+  float: left;
+}
+.navbar .login-form .form-control {
+  max-width: 158px;
+  border-radius: 0 2px 2px 0;
+}    	
+
+
+
+.navbar .navbar-right .dropdown-menu {
+  width: 600px;
+  padding: 20px;
+  left: auto;
+  right: 0;
+      font-size: 14px;
+      border-radius: 10px 10px 10px 10px;
+}
+@media (min-width: 1200px){
+  .search-form .input-group {
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+@media (max-width: 768px){
+  .navbar .navbar-right .dropdown-menu {
+    width: 100%;
+    background: transparent !important;
+    padding: 10px 20px;
+  }
+  .navbar .input-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+ 
+}
+
+/* REGISTRO*/
+
+
+body{
+  color: #ff5100;
+  
+  font-family: 'Roboto', sans-serif;
+}
+  .form-control{
+  height: 40px;
+  box-shadow: none;
+  color: #1898dd;
+}
+.form-control:focus{
+  border-color: #ec8702;
+}
+  .form-control, .btn{        
+      border-radius: 3px;
+  }
+.signup-form{
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.signup-form h2{
+  color: #ec1c00;
+      margin: 0 0 15px;
+  position: relative;
+  text-align: center;
+  }
+.signup-form h2:before, .signup-form h2:after{
+  content: "";
+  height: 2px;
+  width: 30%;
+  background: #e00606;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+}	
+.signup-form h2:before{
+  left: 0;
+}
+.signup-form h2:after{
+  right: 0;
+}
+  .signup-form .hint-text{
+  color: #999;
+  margin-bottom: 30px;
+  text-align: center;
+}
+  .signup-form form{
+  color: #999;
+  border-radius: 3px;
+    margin-bottom: 15px;
+      background: url(../img/ball.jpg);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+  }
+.signup-form .form-group{
+  margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"]{
+  margin-top: 3px;
+}
+.signup-form .btn{        
+      font-size: 16px;
+      font-weight: bold;		
+  min-width: 140px;
+      outline: none !important;
+  }
+.signup-form .row div:first-child{
+  padding-right: 10px;
+}
+.signup-form .row div:last-child{
+  padding-left: 10px;
+}    	
+
+  .signup-form a:hover{
+  text-decoration: none;
+}
+.signup-form form a{
+  color: #ffbd07;
+  text-decoration: none;
+}	
+.signup-form form a:hover{
+  text-decoration: underline;
+}  
+
+.carousel{
+	margin: 10px 0;
+  
    
+}
