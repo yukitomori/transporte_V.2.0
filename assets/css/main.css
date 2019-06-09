@@ -1,0 +1,97 @@
+
+body{
+  background-color: rgb(19, 18, 18);
+}
+#logo{
+width: 100px;
+height: 100px;
+ margin-right: 1%;
+ border-radius: 32px 32px 32px 32px;
+}
+
+#titulo{
+  font-family: robo
+}
+.header {
+  background: url(../img/fondo1.jpg) no-repeat center ;
+  
+  background-size: cover;
+  min-height: 11vh;
+}
+
+.header .navbar {
+  background-color: transparent !important;
+}
+.dropdown-menu{
+  background-color: rgba(255, 187, 0,0.8)
+}
+
+
+  /*buscador*/
+  .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #f6fff5;
+    border-radius: 20px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 200px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: rgb(255, 137, 1);
+    color: #ffffff;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#ff8000;
+    }
+
+    /* mapas*/
+
+    #mapas{
+      margin: 10px;
+      width: 95%;
+      border-radius: 10px;
+    }
+    #buses{
+      margin-left: -15px;
+      border-radius: 10px;
+     margin-bottom: 10px;
+     height: auto;
+     
+    }
+     h2#empresa{
+     margin-top: 10px;
+      color: #ff8000;
+    }
+.well{
+
+  margin-top: 10px;
+
+}
+   
