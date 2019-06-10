@@ -1,6 +1,27 @@
 <?php
 include 'header.php';
 include 'menubar.php';
+include 'conectar.php';
+
+
+if (isset($_POST['login'])) {
+
+
+    $sql = mysqli_query("SELECT option_value FROM wp_10_options WHERE option_name='homepage' LIMIT 1");
+      if ($res = mysqli_fetch_assoc($link, $sql)) {
+          echo $res['option_value'];
+          echo "1 record added";
+    }
+      else{
+          echo "ERROR: Could not able to execute $sql. "
+              . mysqli_error($link);
+      }
+
+
+
+    include 'desconectar.php';
+}
+
 ?>
 <div class="container-fluid text-center">
     <div class="row content">
@@ -24,20 +45,20 @@ include 'menubar.php';
 
                         <div class="carousel-inner">
                             <div class="item carousel-item active">
-                                <img src="/assets/img/ref/ref (1).jpg" alt="" height="720px" width="1280px">
+                                <img src="assets/img/ref/ref1.jpg" alt="" height="720px" width="1280px">
                                 <div class="carousel-caption">
                                     <h3>Servicio Urbano</h3>
                                 </div>
                             </div>
                             <div class="item carousel-item">
-                                <img src="/assets/img/ref/ref (2).jpg" alt=" height=" 720px" width="1280px">
+                                <img src="assets/img/ref/ref2.jpg" alt=" height=" 720px" width="1280px">
                                 <div class="carousel-caption">
                                     <h3>Servicio Urbano</h3>
 
                                 </div>
                             </div>
                             <div class="item carousel-item">
-                                <img src="/assets/img/ref/ref (3).jpg" alt="" height="720px" width="1280px">
+                                <img src="assets/img/ref/ref3.jpg" alt="" height="720px" width="1280px">
                                 <div class="carousel-caption">
                                     <h3>Servicio Urbano</h3>
 

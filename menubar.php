@@ -44,17 +44,17 @@
               <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Acceder<i class="icon-user"></i> </a>
               <ul class="dropdown-menu">
                 <li>
-                  <form class="form-inline login-form" action="/examples/actions/confirmation.php" method="post">
+                  <form class="form-inline login-form" action="index.php" method="post">
                     <div class="input-group">
                       <span class="input-group-addon"><i class="icon-adult"></i></span>
-                      <input type="text" class="form-control" placeholder="Login" required>
+                      <input type="email" class="form-control" placeholder="E-mail" name="email" required>
                     </div>
                     <div class="input-group">
                       <span class="input-group-addon"><i class="icon-lock"></i></span>
-                      <input type="password" class="form-control" placeholder="Contraseña" required>
+                      <input type="password" class="form-control" placeholder="Contraseña"  name="password" required>
                     </div>
                     
-                    <button type="submit" class="btn btn-primary" ><i class="icon-login"></i>- Acceder </button>
+                    <button name="login" type="submit" class="btn btn-primary" ><i class="icon-login"></i>- Acceder </button>
                   </form>
                 </li>
               </ul>
@@ -63,7 +63,7 @@
 
 
           <ul class="nav-item ">
-            <a href="Registro.html" class="btn btn-danger btn-sm"><i class="icon-adult"></i>REGISTRARSE</a>
+            <a href="Registro.php" class="btn btn-danger btn-sm"><i class="icon-adult"></i>REGISTRARSE</a>
           </ul>
           
   </header>
