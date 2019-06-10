@@ -5,7 +5,7 @@ include 'menubar.php';
     <div class="container-fluid text-center">
         <div class="row content">
             <div class="col-sm-2 sidenav">
-                <h2 id="empresa"> Empresa de Transportes santa maria S.A</h2>
+                <img src="assets/img/Tipografia.png" alt="Transporte Urbano">
                 <br>
                 <h1 id="empresa">RUTA N! 15 </h1>
             </div>
@@ -30,7 +30,7 @@ include 'menubar.php';
                                     </div>
                                 </div>
                                 <div class="item carousel-item">
-                                    <img src="assets/img/ref/ref2.jpg" alt=" height=" 720px" width="1280px">
+                                    <img src="assets/img/ref/ref2.jpg" alt="" height="720px" width="1280px">
                                     <div class="carousel-caption">
                                         <h3>Servicio Urbano</h3>
 
@@ -61,7 +61,7 @@ include 'menubar.php';
                         </div>
                     </div>
                     <br>
-                    <img id="buses" src="assets/img/Autos/bus1.jpg" alt="" width="300px" height="300px">
+                    <img id="buses" src="assets/img/escudopuno.png" alt="" width="300px" height="300px">
                 </div>
             </div>
         </div>
