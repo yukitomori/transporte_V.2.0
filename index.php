@@ -7,7 +7,7 @@ include 'menubar.php';
             <div class="col-sm-2 sidenav">
                 <img src="assets/img/Tipografia.png" alt="Transporte Urbano">
                 <br>
-                <h1 id="empresa">RUTA N! 15 </h1>
+                <h1 id="empresa"> ---- </h1>
             </div>
 
 
@@ -24,7 +24,7 @@ include 'menubar.php';
 
                             <div class="carousel-inner">
                                 <div class="item carousel-item active">
-                                    <img src="assets/img/ref/ref1.jpg" alt="" height="720px" width="1280px">
+                                    <img src="assets/img/FondoPuno.jpg" alt="" height="720px" width="1280px">
                                     <div class="carousel-caption">
                                         <h3>Servicio Urbano</h3>
                                     </div>
@@ -37,7 +37,7 @@ include 'menubar.php';
                                     </div>
                                 </div>
                                 <div class="item carousel-item">
-                                    <img src="assets/img/ref/ref3.jpg" alt="" height="720px" width="1280px">
+                                    <img src="assets/img/ref/ref1.jpg" alt="" height="720px" width="1280px">
                                     <div class="carousel-caption">
                                         <h3>Servicio Urbano</h3>
 
